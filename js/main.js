@@ -65,7 +65,7 @@ if(e.target.classList.contains("todo__btn1")){
     inputype.style.display="flex";
     todoList.style.display="inline-block";
     todoList2.style.display="none";
-    box.style.display="none";
+    // box.style.display="none";
 }
 })
 const renderLs=(data)=>{
