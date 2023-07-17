@@ -51,6 +51,7 @@ gitTodo.addEventListener('click',async (e)=>{
         box2.style.display="inline-block";
         todoList.style.display="none";
         todoList2.style.display="inline-block";
+        box.style.display="none";
     }
 })
 gitTodo.addEventListener('click',(e)=>{
@@ -178,6 +179,7 @@ followerText.addEventListener("click",async (e)=>{
         box3.style.display="none";
         inputype.style.display="none";
         box2.style.display="none";
+        inputype.style.display="none";
         todoList.style.display="none";
         todoList2.style.display="none";
        }
