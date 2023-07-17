@@ -176,7 +176,7 @@ followerText.addEventListener("click",async (e)=>{
             getData();
         }
         box3.style.display="none";
-        inputype.style.display="none";
+        // inputype.style.display="none";
         box2.style.display="none";
         todoList.style.display="none";
         todoList2.style.display="none";
