@@ -1,0 +1,219 @@
+#git{
+    background-color: #F6F8FA;
+    padding-top: 20px;
+    height: 120px;
+    border-bottom: 2px solid #D8DEE4;
+}
+.git__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.git__box{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.logo__block{
+    max-width: 300px;
+    display: flex;
+}
+.git__logo{
+    margin-right: 15px;
+    margin-left: 15px;
+    width: 32px;
+    height: 32px;
+    background-color: #fff;
+    border-radius: 50%;
+}
+
+.git__btn{
+    width: 32px;
+    height: 32px;
+    border: 1px solid #bebebe;  
+    background-image: url(../img/menu.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 5px;
+    background-color: inherit;
+}
+.git__btn-block1{
+    width: 32px;
+    height: 32px;
+    background-image: url(../img/plus.svg);  
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 1px solid #bebebe;
+    border-right: 0;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background-color: inherit;
+}
+.git__btn-block2{
+    width: 54px;
+    height: 32px;
+    background-image: url(../img/downpl.svg);  
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 1px solid #bebebe;
+    border-left: 0;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: inherit;
+}
+.git__btn-block3{
+    width: 54px;
+    height: 32px;
+    background-image: url(../img/circleicon.svg);  
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 1px solid #bebebe;
+    border-radius: 5px;
+    margin-left: 5px;
+    background-color: inherit;
+    background-color: inherit;
+}
+.git__btn-block4{
+    width: 54px;
+    height: 32px;
+    background-image: url(../../img/codee.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 1px solid #bebebe;
+    border-radius: 5px;
+    margin-left: 5px;
+    background-color: inherit;
+}
+.git__btn-block5{
+    width: 54px;
+    height: 32px;
+    background-image: url(../img/inbox.svg);  
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 1px solid #bebebe;
+    border-radius: 5px;
+    margin-left: 5px;
+    background-color: inherit;
+}
+.git__img{  
+    margin-top: -2px;
+    margin-left: 5px;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+
+}
+.git__title{
+    color: #000;
+    font-weight: 400;
+}
+.git__form{
+    max-width: 500px;
+}
+.git__input{
+    width: 100%;
+    padding: 5px  8px 5px 50px; 
+    margin-right: 8px;
+    border-radius: 5px;
+    border: 1px solid #bebebe;
+}
+.before::before{
+    position: absolute;
+    top: 50%;
+    margin-top: -12px;
+    width: 23px;
+    height: 24px;
+    content: "";
+    display: inline-block;
+    background-image: url(../img/search.svg);
+    background-repeat: no-repeat;
+
+}
+.btn_box{
+    width: 69px;
+    height: 32px;
+    background-color: #EFEFEF;
+    border-radius: 5px;
+    display: flex;
+    margin-left: 8px;
+    background-color: inherit;
+}
+.git__todo{
+    padding-top: 20px;
+    align-items: start;
+    position: relative;
+}
+.btns{
+    background-color: inherit;
+    border: none;
+}
+.git__todo{
+    align-items: center;
+}
+.todo__btn1{
+    content: "";
+    display: inline-block;
+    background-image: url(../img/imgtodo/read.jpg);
+    background-repeat: no-repeat;
+    padding-left: 15px;
+    width: 110px;
+    height: 23px;
+    margin-left: 5px;
+} 
+.todo__btn2{
+    content: "";
+    display: inline-block;
+    background-image: url(../img/imgtodo/book.jpg);
+    background-repeat: no-repeat;
+    width: 130px;
+    height: 23px;
+}  
+.todo__btn3{
+    content: "";
+    display: inline-block;
+    background-image: url(../img/imgtodo/rectangle.jpg);
+    background-repeat: no-repeat;
+    width: 110px;
+    height: 23px;
+}  
+.todo__btn4{
+    content: "";
+    display: inline-block;
+    background-image: url(../img/imgtodo/kub.jpg);
+    background-repeat: no-repeat;
+    width: 110px;
+    height: 23px;
+} 
+.todo__btn5{
+    content: "";
+    display: inline-block;
+    background-image: url(../img/imgtodo/star.jpg );
+    background-repeat: no-repeat;
+    width: 90px;
+    height: 23px;
+} 
+.todo__list{
+    display: inline-block;
+    border: 3px solid #fd8c73;
+    width: 110px;
+    border-radius: 5px;
+    margin-bottom: -2px;
+}
+.git__form{
+    display: flex;
+    position: relative;
+}
+.list2{
+    display: none;
+    position: absolute;
+    top: 50%;
+    margin-top: 37px;
+    left: 120px;
+}
+.button__dod{
+    display: none;
+}
+.main__title2{
+    display: none;
+}

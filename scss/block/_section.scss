@@ -1,0 +1,343 @@
+.main__container{
+    max-width: 1316px;
+    display: flex;
+     margin-top: 35px;
+     gap: 30px;
+}
+.main__content-title{
+    margin-bottom: 15px;
+    color: #4F5256;
+    font-weight: 400;
+    font-size: 18px;
+}
+.main__content-block{
+   display: none;
+}
+.main__content-box{
+    max-width: 890px;
+    display: flex;
+    justify-content: space-between;
+}
+.main__content-text{
+    color: #898F96;
+    margin-bottom: 0;
+}
+.main__content-text:hover{
+    color: #3a89e3;
+}
+.main__photo{
+    border-radius: 50%;
+    width: 260px;
+    height: 260px;
+}
+.main__title{
+    text-align: left;
+    padding:  16px 0;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: var(--base-text-weight-light, 300);
+    line-height: 24px;
+    color: #6E7681;
+}
+.main__edit{
+    background-color: #F6F8FA;
+    width: 100%;
+    padding: 5px 16px;
+    font-weight: 500;
+    border: 1px solid #D6D8DB;
+    border-radius: 5px;
+}
+.main__box{
+    text-align: center;
+    max-width: 296px;
+}
+.main__follow{
+    margin-top: 15px;
+    text-align: left;
+}
+.follow__num{
+    margin-left: 5px;
+    margin-right: 5px;
+    font-weight: 500;
+}
+.follow__text{
+    margin-right: 5px;
+}
+.follow__link{
+    color: #656D76;
+}
+.follow__num{
+    color: #000;
+}
+.icon__users{
+    width: 16px;
+    height: 16px;
+}
+.main__list{
+    max-width: 900px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.content__text{
+    display: flex;
+    justify-content: space-between;
+}
+.main__item{
+    border-radius: 5px;
+    padding: 16px;
+    width: 440px;
+    border: 1px solid #D0D7DE;
+}
+.item__link{
+    font-weight: 500;
+    color: #1671DC;
+}
+.item__span{
+    padding: 0 7px;
+    border-radius: 13px;
+    border: 1px solid #D9DEE4;
+    color: #676F78;
+}
+.item__text{
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+}
+.item__content-span{
+    margin-right: 10px;
+    background-color: #E34C26;
+    border-radius: 50%;
+    width: 12px;
+    height: 12px;
+}
+.span1{
+    background-color: #563D7C;
+}
+
+.main__content{
+    max-width: 1316px;
+}
+.box3{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+
+// re
+
+.main__content-input1{
+    display: flex;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #D8DEE4;
+}
+.main__content-input{
+    width: 700px;
+    display: flex;
+    justify-content: space-between; 
+}
+.main__content-finde{
+    width: 100%;
+    padding: 5px 16px;
+    border-radius: 5px;
+    border: 1px solid #D0D7DE;
+}
+.main__content-sel{
+    display: flex;
+    
+}
+.new__link{
+    margin-left: 10px;
+    background-color: #1F883D;
+    color: #fff;
+    padding: 7px 16px;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: larger;
+}
+.sel{
+    margin-left: 10px;
+}
+.select__inputs+.select__inputs{
+    margin-left: 5px;
+}
+.select__inputs{
+    font-weight: 600;
+    border-radius: 5px;
+    padding: 5px 16px;
+    border: 1px solid #D0D7DE;
+}
+
+// repos
+.reposit__content{
+    margin-top: 20px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    border-bottom: 1px solid #D8DEE4;
+}
+.box2{
+    display: none;
+    width: 803px;
+}
+.reposit__content-text{
+    color: #676F78;
+    font-size: 12px;
+}
+.reposit__mini-block{
+    margin-top: 25px;
+    align-items: center;
+}
+.reposit__link{
+    font-weight: 600;
+    font-size: 20px;
+    color: #0969DA;
+}
+.reposit__span{
+    margin-left: 5px;
+    color: #656D76;
+    font-size: 12px;
+    font-weight: 500;
+}
+.reposit__btn{
+    align-items: center;
+}
+.reposit__btn-b{
+    font-size: 10px;
+    width: 68px;
+    height: 22px;
+    border-radius: 5px;
+    border: 1px solid #D0D7DE;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-right: 0;
+}
+.reposit__btn-s{
+    background-image: url(../img/downpl.svg);
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 22px;   
+    border-radius: 5px;
+    border: 1px solid #D0D7DE;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-left: 0;
+}
+.reposit__box{
+    display: flex;
+}
+
+// 
+.content__js{
+    border-bottom: 1px solid #D8DEE4;
+    padding-bottom: 20px;
+}
+
+// media
+@media screen and (max-width:1225px) {
+    .main__content-box{
+        max-width: 440px;
+    }
+}
+@media screen and (max-width:900px) { 
+    .git__input{
+            background-color: #F6F8FA;
+            width: 12px;
+            height: 32px;
+            padding: 15px;
+        }
+        .main__photo{
+            width: 230px;
+            height: 230px;
+        }
+}
+
+@media screen and (max-width:755px) {
+    .form__btn{
+        margin-top: 10px;
+        width: 690px;
+    }
+    .main__edit{
+        width: 100%;
+    }
+    .main__box-l{
+        align-items: center;
+        display: flex;
+    }
+    .main__container{
+        flex-direction: column;
+    }
+    .main__content-box{
+        margin-top: 30px;
+    }
+    .main__content{
+        width: 683px;
+        
+    }
+    .main__item{
+        width: 100%;
+    }
+    .main__photo{
+        width: 122px;
+        height: 122px;
+    }
+    .main__title{
+        margin-left: 24px;
+    }
+}
+@media screen and (max-width:725px) {
+    .form__btn{
+        width: 600px;
+    }
+    .main__edit{
+        width: 100%;
+    }
+}
+@media screen and (max-width:655px) {
+    .form__btn{
+        width: 300px;
+    }
+    .git__btn-block3{
+        display: none;
+    }
+    .git__btn-block4{
+        display: none;
+    }
+    .git__btn-block5{
+        display: none;
+    }
+}
+@media screen and (max-width:613px) {
+    .todo__btn5{
+        display: none;
+    }
+    .form__btn{
+        width: 300px;
+    }
+    .main__edit{
+        width: 350px;
+    }
+    .button__dod{
+        display: inline-block;
+        font-weight: 800;
+        font-size: 20px;
+        color: #898F96;
+    }
+    .git__todo{
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
+@media screen and (max-width:537px) {
+    .todo__btn4{
+        display: none;
+    }
+    
+}
+@media screen and (max-width:490px) {
+    .btn_box{
+        display: none;
+    }
+}
