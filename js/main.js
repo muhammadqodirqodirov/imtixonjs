@@ -51,7 +51,6 @@ gitTodo.addEventListener('click',async (e)=>{
         box2.style.display="inline-block";
         todoList.style.display="none";
         todoList2.style.display="inline-block";
-        box.style.display="none";
     }
 })
 gitTodo.addEventListener('click',(e)=>{
