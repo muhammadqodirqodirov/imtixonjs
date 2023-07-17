@@ -72,7 +72,7 @@ const renderLs=(data)=>{
         (el)=>`
         <div class="reposit__content">
                         <div class="reposit__content-block">
-                            <a class="reposit__link" href="#">${el.name}</a>
+                            <a class="reposit__link" href="${el.html_url}">${el.name}</a>
                             <span class="reposit__span item__span">${el.visibility}</span>
                             <div class="reposit__mini-block">
                                 <span class="span1 item__content-span"></span>
