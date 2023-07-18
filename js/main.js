@@ -32,15 +32,6 @@ logoa.addEventListener('click', async (qiymat)=>{
         }
     }
 })
-
-
-
-
-
-
-
-
-
 gitTodo.addEventListener('click',async (e)=>{
     e.preventDefault();
     if(e.target.classList.contains("todo__btn2")){
@@ -63,8 +54,7 @@ if(e.target.classList.contains("todo__btn1")){
     inputype.style.display="inline-block";  
     inputype.style.display="flex";
     todoList.style.display="inline-block";
-    todoList2.style.display="none";
-    
+    todoList2.style.display="none"; 
 }
 })
 const renderLs=(data)=>{
@@ -72,7 +62,7 @@ const renderLs=(data)=>{
         (el)=>`
         <div class="reposit__content">
                         <div class="reposit__content-block">
-                            <a class="reposit__link" href="${el.html_url}">${el.name}</a>
+                            <a target="_blank" class="reposit__link" href="${el.html_url}">${el.name}</a>
                             <span class="reposit__span item__span">${el.visibility}</span>
                             <div class="reposit__mini-block">
                                 <span class="span1 item__content-span"></span>
@@ -103,14 +93,13 @@ const getRepost= async ()=>{
     }
 }
 getRepost();
-
 const renderOver=(data)=>{
  box3.innerHTML=data?.map((el)=>`
  <div class="main__content">
  <ul class="main__list">
    <li class="main__item">
    <div class="content__text">
-       <a class="item__link" href="${el.html_url}">${el.name}</a>
+       <a target="_blank" class="item__link" href="${el.html_url}">${el.name}</a>
        <span class="item__span">${el.visibility}</span>
    </div>
    <div class="item__text">
@@ -131,7 +120,6 @@ const getOver= async ()=>{
 }
 }
 getOver();
-
 const render =(data)=>{
     box.innerHTML=data?.map(
         (el)=>`
@@ -155,7 +143,6 @@ const getData= async ()=>{
          console.log(error);
      }
 }
-
 followerText.addEventListener("click",async (e)=>{
     e.preventDefault();
        if(e.target.className=="follow__text"){
